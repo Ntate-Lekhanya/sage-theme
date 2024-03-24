@@ -29,7 +29,9 @@ class ThemeOptions extends Field
         $themeOptions = Builder::make('theme_options');
 
         $themeOptions
-            ->addImage('logo' , ['label' => 'Logo' , 'return_format' => 'id']);
+            ->addImage('logo', ['label' => 'Logo', 'return_format' => 'id'])
+            ->addLink('ctabtn_1', ['label' => 'CTA Button 1'])
+            ->addLink('ctabtn_2', ['label' => 'CTA Button 2']);
 
         return $themeOptions->build();
     }

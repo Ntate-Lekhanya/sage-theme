@@ -8,6 +8,19 @@
   }
 }
 
+.cta {
+  a {
+    border-radius: 50px;
+    padding: 5px 20px ;
+    transition: ease all .3s;
+    counter-reset: #444;
+
+    &:hover {
+      border-radius: 0px;
+    }
+  }
+}
+
 .nav-primary {
 
   ul {

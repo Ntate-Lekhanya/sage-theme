@@ -1,0 +1,27 @@
+//Area to customise menu drop down
+
+.nav-primary {
+
+  .menu-item-has-children {
+    position: relative;
+
+    .sub-menu {
+      @apply drop-shadow;
+      display: none;
+      position: absolute;
+      inset: 0;
+      top: 20px;
+      width: max-content;
+      transition: ease all .3s;
+
+    }
+  }
+
+  li {
+    &:hover .sub-menu {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+  }
+}
