@@ -1,6 +1,7 @@
-<header class="banner">
+<header class="banner flex justify-between p-4 bg-red-400">
   <a class="brand" href="{{ home_url('/') }}">
-    {!! $siteName !!}
+    {{-- {!! $siteName !!} --}}
+    {!! wp_get_attachment_image( $siteLogo ) !!}
   </a>
 
   @if (has_nav_menu('primary_navigation'))
