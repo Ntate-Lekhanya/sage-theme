@@ -1,6 +1,16 @@
+.banner {
+
+  a {
+
+    img {
+      max-width: 100px;
+    }
+  }
+}
+
 .nav-primary {
 
   ul {
-    display: flex;
+   @apply flex gap-2;
   }
 }
