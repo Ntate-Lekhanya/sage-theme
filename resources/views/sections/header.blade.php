@@ -1,4 +1,4 @@
-<header class="banner sticky z-50 top-0 bg-white">
+<header class="banner sticky z-50 top-0">
   <div class="flex justify-between max-w-7xl mx-auto items-center">
     <a class="brand" href="{{ home_url('/') }}">
       {{-- {!! $siteName !!} --}}

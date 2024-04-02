@@ -27,6 +27,9 @@
         </aside>
       @endif
 
+      <!-- Include the posts section -->
+      @yield('posts')
+
       @include('sections.footer')
     </div>
 
